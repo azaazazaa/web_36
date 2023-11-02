@@ -1,0 +1,45 @@
+.main__bg {
+  padding: 20px 0;
+}
+
+.meme {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  padding: 60px 40px;
+  margin: auto;
+  background-color: yellow;
+}
+
+h1 {
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 40px;
+}
+
+.meme img {
+  width: 100%;
+}
+
+.meme__disc {
+  width: 100%;
+  padding: 20px 0;
+}
+
+.meme__cont {
+  display: flex;
+
+}
+.col {
+  display: flex;
+  width: 0;
+  flex-grow: 1;
+  box-sizing: border-box;
+  padding-right: 20px;
+}
+
+h2 {
+  margin: 20px 0;
+  font-weight: 200;
+}
