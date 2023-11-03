@@ -4,7 +4,6 @@
 
 .meme {
   width: 80%;
-  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: start;
@@ -16,6 +15,7 @@
 h1 {
   font-family: 'Pixelify Sans', sans-serif;
   font-size: 40px;
+  font-weight: 700;
 }
 
 .meme img {
@@ -29,10 +29,20 @@ h1 {
 
 .meme__cont {
   display: flex;
-
+  width: 100%;
 }
+/* Поменял цвета фона */
+.header{
+  background-color: #ff3dfe;
+}
+
+.main__bg{
+  background: linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(54,165,200,1) 58%, rgba(76,145,232,1) 92%);;
+}
+
+/* Поменял цвета фона */
+
 .col {
-  display: flex;
   width: 0;
   flex-grow: 1;
   box-sizing: border-box;
